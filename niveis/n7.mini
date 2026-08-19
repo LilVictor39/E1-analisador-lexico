@@ -1,0 +1,6 @@
+// declaracoes do calculo de media
+inteiro qtd = 2;
+real n1 = 7.5;
+real n2 = 6.25;
+real media;
+logico aprovado = falso;
