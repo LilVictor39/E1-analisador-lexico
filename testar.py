@@ -36,8 +36,12 @@ NIVEIS = [
         (';',          [('PVIRG', ';')]),
         ('qtd = 42;',  [('ID', 'qtd'), ('ATRIB', '='),
                         ('INTEIRO', '42'), ('PVIRG', ';')]),
+        ('==',         [('ATRIB', '='), ('ATRIB', '=')]),
+        (';;',         [('PVIRG', ';'), ('PVIRG', ';')]),
      ], 'afd_atrib e afd_pvirg: dois estados cada, uma transicao cada.\n'
-        '  Use os conjuntos IGUAL e PVIRG.'),
+        '  Use os conjuntos IGUAL e PVIRG.\n'
+        '  Cuidado com self-loop: o estado inicial nao pode ter uma\n'
+        '  transicao de volta pra ele mesmo, senao "==" vira um token so.'),
 
     ('3', 'palavras reservadas de tipo', [
         ('inteiro',    [('TIPO', 'inteiro')]),
