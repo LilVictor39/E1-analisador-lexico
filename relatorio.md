@@ -28,7 +28,7 @@ novo, só entradas no dicionário `PALAVRAS`).
 
 ## 3. Literal inteiro (`INTEIRO`) — nível 1
 
-![AFD do literal inteiro](./prints/literalinteiro.jpeg)
+![AFD do literal inteiro](./prints/literalinteiro-horizontal.jpeg)
 
 | Estado | O que ele lembra |
 |---|---|
