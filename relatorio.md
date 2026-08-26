@@ -77,12 +77,6 @@ novo, só entradas no dicionário `PALAVRAS`).
 
 **3 estados**: dois para confirmar as duas barras, um para o loop até a quebra de linha.
 
-## 7. Nível que deu mais trabalho
-
-*(preencher com sua experiência: qual nível te travou mais rodando o `testar.py`
-e o que estava errado na primeira tentativa — ex.: marcar `r1`/`r2` como final
-no nível 4, ou deixar `a1`/`p1` com self-loop no nível 2.)*
-
 ## 8. Resumo de estados por autômato
 
 | Token | Nº de estados | Observação |
